@@ -39,7 +39,7 @@ let quotes = ["test 12345", "Jos malo pa gotovo", "Mdaa"];
 let testApp = new RandomGenerator(quotes);
 
 describe.skip("Random Generator unit test", function() {
-  describe("newQuote() metoda", function() {
+  describe.skip("newQuote() metoda", function() {
     it("newQuote() vraca recenicu znakovnog tipa", function() {
       let status = testApp.newQuote();
       assert.isString(status);
